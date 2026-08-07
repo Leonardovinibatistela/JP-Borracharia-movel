@@ -3,7 +3,6 @@ import { motion, useInView, AnimatePresence, useScroll, useTransform } from 'fra
 import vanHeroImg from './assets/van-hero.jpg';
 import tireServiceImg from './assets/tire-service.jpg';
 import {
-  Phone,
   Clock,
   MapPin,
   Truck,
@@ -27,7 +26,6 @@ import {
   Sparkles,
   Disc,
   Navigation,
-  MessageCircle,
 } from 'lucide-react';
 
 // ============ ANIMATION PRESETS ============
@@ -149,11 +147,13 @@ function Navbar() {
             {/* CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="tel:+5566992122415"
+                href="https://wa.me/5566992122415"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium transition-colors"
               >
-                <Phone size={16} />
-                (66) 99212-2415
+                <WhatsAppBrandIcon size={16} />
+                Auto Socorro 1
               </a>
               <a
                 href="https://wa.me/5566992754284"
@@ -161,8 +161,8 @@ function Navbar() {
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-400 hover:to-brand-500 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-brand-500/25 hover:shadow-brand-500/40 transition-all"
               >
-                <PhoneCall size={16} />
-                Chamar agora
+                <WhatsAppBrandIcon size={16} />
+                Auto Socorro 2
               </a>
             </div>
 
@@ -200,10 +200,12 @@ function Navbar() {
               ))}
               <div className="pt-4 border-t border-white/10 space-y-3">
                 <a
-                  href="tel:+5566992122415"
+                  href="https://wa.me/5566992122415"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 text-white/80 text-sm font-medium py-2"
                 >
-                  <Phone size={16} /> (66) 99212-2415
+                  <WhatsAppBrandIcon size={16} /> Auto Socorro 1
                 </a>
                 <a
                   href="https://wa.me/5566992754284"
@@ -211,7 +213,7 @@ function Navbar() {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 text-white px-5 py-3 rounded-xl font-semibold w-full"
                 >
-                  <PhoneCall size={18} /> Chamar agora
+                  <WhatsAppBrandIcon size={18} /> Auto Socorro 2
                 </a>
               </div>
             </div>
@@ -626,15 +628,17 @@ function Showcase() {
                   rel="noopener noreferrer"
                   className="btn-primary flex items-center justify-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 text-white px-6 py-3.5 rounded-xl font-semibold shadow-lg shadow-brand-500/25"
                 >
-                  <MessageSquare size={18} />
-                  Fale conosco agora
+                  <WhatsAppBrandIcon size={18} />
+                  Auto Socorro 2
                 </a>
                 <a
-                  href="tel:+5566992122415"
+                  href="https://wa.me/5566992122415"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 glass text-white px-6 py-3.5 rounded-xl font-semibold hover:bg-white/10 transition-all"
                 >
-                  <Phone size={18} />
-                  (66) 99212-2415
+                  <WhatsAppBrandIcon size={18} />
+                  Auto Socorro 1
                 </a>
               </div>
             </Reveal>
@@ -844,11 +848,13 @@ function FinalCTA() {
 
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+5566992122415"
+              href="https://wa.me/5566992122415"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary group flex items-center justify-center gap-3 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-400 hover:to-brand-500 text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-brand-500/30 hover:shadow-brand-500/50 hover:scale-[1.02] transition-all"
             >
-              <Phone size={22} />
-              (66) 99212-2415
+              <WhatsAppBrandIcon size={22} />
+              Auto Socorro 1
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
@@ -858,7 +864,7 @@ function FinalCTA() {
               className="group flex items-center justify-center gap-3 bg-green-500 hover:bg-green-400 text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-green-500/30 hover:shadow-green-500/50 hover:scale-[1.02] transition-all"
             >
               <WhatsAppBrandIcon size={22} />
-              (66) 99275-4284
+              Auto Socorro 2
             </a>
           </motion.div>
 
@@ -928,9 +934,14 @@ function Footer() {
             <h4 className="font-display font-bold text-white mb-4">Contato</h4>
             <ul className="space-y-3">
               <li>
-                <a href="tel:+5566992122415" className="flex items-center gap-2 text-zinc-400 hover:text-white text-sm transition-colors">
-                  <Phone size={16} className="text-brand-500" />
-                  (66) 99212-2415
+                <a
+                  href="https://wa.me/5566992122415"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-zinc-400 hover:text-white text-sm transition-colors"
+                >
+                  <WhatsAppBrandIcon size={16} />
+                  Auto Socorro 1
                 </a>
               </li>
               <li>
@@ -940,8 +951,8 @@ function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-zinc-400 hover:text-white text-sm transition-colors"
                 >
-                  <MessageCircle size={16} className="text-brand-500" />
-                  (66) 99275-4284
+                  <WhatsAppBrandIcon size={16} />
+                  Auto Socorro 2
                 </a>
               </li>
               <li className="flex items-start gap-2 text-zinc-400 text-sm">
