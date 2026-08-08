@@ -185,9 +185,9 @@ function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="fixed inset-0 z-40 lg:hidden pt-24 px-4"
+            className="fixed inset-0 z-40 lg:hidden pt-24 px-4 bg-dark-950/98"
           >
-            <div className="glass rounded-2xl p-6 space-y-4">
+            <div className="bg-dark-900 border border-white/10 rounded-2xl p-6 space-y-4">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
