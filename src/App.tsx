@@ -8,6 +8,7 @@ import {
   Truck,
   Car,
   Bike,
+  Tractor,
   Wrench,
   CircleDot,
   Shield,
@@ -296,7 +297,7 @@ function Hero() {
                 variants={fadeInUp}
                 className="text-lg sm:text-xl text-zinc-400 max-w-xl leading-relaxed"
               >
-                Borracharia móvel com <strong className="text-zinc-200">2 carros de atendimento</strong> especializados em caminhões, carros e motos. Conserto e troca de pneus no local em até <strong className="text-zinc-200">30 minutos</strong>. Sem reboque. Sem stress.
+                Borracharia móvel com <strong className="text-zinc-200">2 carros de atendimento</strong> especializados em caminhões, carros, motos e máquinas agrícolas. Conserto e troca de pneus no local em até <strong className="text-zinc-200">30 minutos</strong>. Sem reboque. Sem stress.
               </motion.p>
             </motion.div>
 
@@ -385,6 +386,7 @@ function Hero() {
                       { label: 'Caminhões & Carretas', value: '24h', icon: Truck },
                       { label: 'Carros & Utilitários', value: '24h', icon: Car },
                       { label: 'Motos', value: '24h', icon: Bike },
+                      { label: 'Máquinas Agrícolas', value: '24h', icon: Tractor },
                     ].map((item, i) => (
                       <div key={i} className="flex items-center justify-between py-2 border-b border-white/5 last:border-0">
                         <div className="flex items-center gap-3">
@@ -477,6 +479,7 @@ function VehicleTypes() {
     { icon: Truck, label: 'Caminhões', desc: 'Pesados e carretas' },
     { icon: Car, label: 'Carros', desc: 'Passeio e utilitários' },
     { icon: Bike, label: 'Motos', desc: 'Todas as cilindradas' },
+    { icon: Tractor, label: 'Agrícola', desc: 'Máquinas e tratores' },
   ];
 
   return (
@@ -487,7 +490,7 @@ function VehicleTypes() {
           <h2 className="font-display font-bold text-3xl sm:text-4xl text-dark-900">Qualquer veículo, qualquer horário</h2>
         </Reveal>
         <Reveal variants={staggerContainer}>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             {vehicles.map((v, i) => (
               <motion.div
                 key={i}
@@ -946,7 +949,7 @@ function Footer() {
               </div>
             </div>
             <p className="text-zinc-400 max-w-md leading-relaxed mb-6">
-              Especializada em conserto e troca de pneus no local para caminhões, carros e motos em Matupá e região.
+              Especializada em conserto e troca de pneus no local para caminhões, carros, motos e máquinas agrícolas em Matupá e região.
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-10 h-10 rounded-xl glass flex items-center justify-center text-zinc-400 hover:text-white hover:bg-white/10 transition-all">
