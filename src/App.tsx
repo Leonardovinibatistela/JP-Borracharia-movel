@@ -150,7 +150,7 @@ function Navbar() {
                 href="https://wa.me/5566992122415"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium transition-colors"
+                className="flex items-center gap-2 text-green-400 hover:text-green-300 text-sm font-medium transition-colors"
               >
                 <WhatsAppBrandIcon size={16} />
                 Auto Socorro 1
@@ -159,7 +159,7 @@ function Navbar() {
                 href="https://wa.me/5566992754284"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary flex items-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-400 hover:to-brand-500 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-brand-500/25 hover:shadow-brand-500/40 transition-all"
+                className="btn-primary flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-dark-900 px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 transition-all"
               >
                 <WhatsAppBrandIcon size={16} />
                 Auto Socorro 2
@@ -203,7 +203,7 @@ function Navbar() {
                   href="https://wa.me/5566992122415"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 text-white/80 text-sm font-medium py-2"
+                  className="flex items-center justify-center gap-2 text-green-400 text-sm font-medium py-2"
                 >
                   <WhatsAppBrandIcon size={16} /> Auto Socorro 1
                 </a>
@@ -211,7 +211,7 @@ function Navbar() {
                   href="https://wa.me/5566992754284"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 text-white px-5 py-3 rounded-xl font-semibold w-full"
+                  className="flex items-center justify-center gap-2 bg-amber-500 text-dark-900 px-5 py-3 rounded-xl font-semibold w-full"
                 >
                   <WhatsAppBrandIcon size={18} /> Auto Socorro 2
                 </a>
@@ -623,22 +623,22 @@ function Showcase() {
             <Reveal delay={0.5}>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a
-                  href="https://wa.me/5566992754284"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary flex items-center justify-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 text-white px-6 py-3.5 rounded-xl font-semibold shadow-lg shadow-brand-500/25"
-                >
-                  <WhatsAppBrandIcon size={18} />
-                  Auto Socorro 2
-                </a>
-                <a
                   href="https://wa.me/5566992122415"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 glass text-white px-6 py-3.5 rounded-xl font-semibold hover:bg-white/10 transition-all"
+                  className="btn-primary flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white px-6 py-3.5 rounded-xl font-semibold shadow-lg shadow-green-500/25"
                 >
                   <WhatsAppBrandIcon size={18} />
                   Auto Socorro 1
+                </a>
+                <a
+                  href="https://wa.me/5566992754284"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-dark-900 px-6 py-3.5 rounded-xl font-semibold transition-all"
+                >
+                  <WhatsAppBrandIcon size={18} />
+                  Auto Socorro 2
                 </a>
               </div>
             </Reveal>
@@ -851,7 +851,7 @@ function FinalCTA() {
               href="https://wa.me/5566992122415"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary group flex items-center justify-center gap-3 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-400 hover:to-brand-500 text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-brand-500/30 hover:shadow-brand-500/50 hover:scale-[1.02] transition-all"
+              className="btn-primary group flex items-center justify-center gap-3 bg-green-500 hover:bg-green-400 text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-green-500/30 hover:shadow-green-500/50 hover:scale-[1.02] transition-all"
             >
               <WhatsAppBrandIcon size={22} />
               Auto Socorro 1
@@ -861,7 +861,7 @@ function FinalCTA() {
               href="https://wa.me/5566992754284"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center gap-3 bg-green-500 hover:bg-green-400 text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-green-500/30 hover:shadow-green-500/50 hover:scale-[1.02] transition-all"
+              className="group flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-dark-900 px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-[1.02] transition-all"
             >
               <WhatsAppBrandIcon size={22} />
               Auto Socorro 2
@@ -938,7 +938,7 @@ function Footer() {
                   href="https://wa.me/5566992122415"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-zinc-400 hover:text-white text-sm transition-colors"
+                  className="flex items-center gap-2 text-green-400 hover:text-green-300 text-sm transition-colors"
                 >
                   <WhatsAppBrandIcon size={16} />
                   Auto Socorro 1
@@ -949,7 +949,7 @@ function Footer() {
                   href="https://wa.me/5566992754284"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-zinc-400 hover:text-white text-sm transition-colors"
+                  className="flex items-center gap-2 text-amber-400 hover:text-amber-300 text-sm transition-colors"
                 >
                   <WhatsAppBrandIcon size={16} />
                   Auto Socorro 2
