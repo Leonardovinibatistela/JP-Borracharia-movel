@@ -150,7 +150,7 @@ function Navbar() {
                 href="https://wa.me/5566992122415"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-green-400 hover:text-green-300 text-sm font-medium transition-colors"
+                className="btn-primary flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-green-500/25 hover:shadow-green-500/40 transition-all"
               >
                 <WhatsAppBrandIcon size={16} />
                 Auto Socorro 1
@@ -203,9 +203,9 @@ function Navbar() {
                   href="https://wa.me/5566992122415"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 text-green-400 text-sm font-medium py-2"
+                  className="flex items-center justify-center gap-2 bg-green-500 text-white px-5 py-3 rounded-xl font-semibold w-full"
                 >
-                  <WhatsAppBrandIcon size={16} /> Auto Socorro 1
+                  <WhatsAppBrandIcon size={18} /> Auto Socorro 1
                 </a>
                 <a
                   href="https://wa.me/5566992754284"
