@@ -734,6 +734,10 @@ function FAQ() {
       a: 'Em média, chegamos em até 30 minutos dentro do município e um pouco mais em estradas, dependendo da distância. Sempre informamos o tempo estimado no momento da chamada.',
     },
     {
+      q: 'Por que tem dois números de WhatsApp?',
+      a: 'Porque temos 2 carros de plantão rodando ao mesmo tempo (Auto Socorro 1 e Auto Socorro 2). Você pode chamar qualquer um dos dois — assim aumenta a chance de ser atendido mais rápido, pelo carro que estiver mais perto de você.',
+    },
+    {
       q: 'Vocês consertam pneu de caminhão na hora?',
       a: 'Sim! Nossa unidade móvel está equipada com ferramentas adequadas para caminhões, carretas, ônibus, além de carros e motos. O conserto ou troca é feito no próprio local.',
     },
@@ -846,6 +850,13 @@ function FinalCTA() {
             Não importa onde você esteja. Nossa equipe vai até você, resolve o problema e você segue viagem.
           </motion.p>
 
+          <motion.p
+            variants={fadeInUp}
+            className="text-sm text-zinc-500 mb-4"
+          >
+            Temos 2 carros de plantão ao mesmo tempo — chame qualquer um dos dois, quem estiver mais perto atende primeiro.
+          </motion.p>
+
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/5566992122415"
@@ -932,6 +943,7 @@ function Footer() {
           {/* Contact */}
           <div>
             <h4 className="font-display font-bold text-white mb-4">Contato</h4>
+            <p className="text-zinc-500 text-xs mb-3">2 carros de plantão — chame qualquer um</p>
             <ul className="space-y-3">
               <li>
                 <a
