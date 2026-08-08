@@ -147,7 +147,7 @@ function Navbar() {
             {/* CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://wa.me/5566992122415"
+                href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-green-500/25 hover:shadow-green-500/40 transition-all"
@@ -156,7 +156,7 @@ function Navbar() {
                 Auto Socorro 1
               </a>
               <a
-                href="https://wa.me/5566992754284"
+                href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-dark-900 px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 transition-all"
@@ -200,7 +200,7 @@ function Navbar() {
               ))}
               <div className="pt-4 border-t border-white/10 space-y-3">
                 <a
-                  href="https://wa.me/5566992122415"
+                  href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-green-500 text-white px-5 py-3 rounded-xl font-semibold w-full"
@@ -208,7 +208,7 @@ function Navbar() {
                   <WhatsAppBrandIcon size={18} /> Auto Socorro 1
                 </a>
                 <a
-                  href="https://wa.me/5566992754284"
+                  href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-amber-500 text-dark-900 px-5 py-3 rounded-xl font-semibold w-full"
@@ -309,7 +309,7 @@ function Hero() {
             >
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://wa.me/5566992122415"
+                  href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary group flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-2xl text-base font-semibold shadow-xl shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all"
@@ -319,7 +319,7 @@ function Hero() {
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
-                  href="https://wa.me/5566992754284"
+                  href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary group flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-dark-900 px-8 py-4 rounded-2xl text-base font-semibold shadow-xl shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-[1.02] transition-all"
@@ -398,7 +398,7 @@ function Hero() {
                   <div className="pt-2 space-y-2">
                     <div className="flex gap-2">
                       <a
-                        href="https://wa.me/5566992122415"
+                        href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 flex-1 bg-green-500 hover:bg-green-400 text-white py-3 rounded-xl font-semibold transition-all shadow-lg shadow-green-500/20"
@@ -407,7 +407,7 @@ function Hero() {
                         Socorro 1
                       </a>
                       <a
-                        href="https://wa.me/5566992754284"
+                        href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 flex-1 bg-amber-500 hover:bg-amber-400 text-dark-900 py-3 rounded-xl font-semibold transition-all shadow-lg shadow-amber-500/20"
@@ -661,7 +661,7 @@ function Showcase() {
             <Reveal delay={0.5}>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a
-                  href="https://wa.me/5566992122415"
+                  href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white px-6 py-3.5 rounded-xl font-semibold shadow-lg shadow-green-500/25"
@@ -670,7 +670,7 @@ function Showcase() {
                   Auto Socorro 1
                 </a>
                 <a
-                  href="https://wa.me/5566992754284"
+                  href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-dark-900 px-6 py-3.5 rounded-xl font-semibold transition-all"
@@ -897,7 +897,7 @@ function FinalCTA() {
 
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/5566992122415"
+              href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary group flex items-center justify-center gap-3 bg-green-500 hover:bg-green-400 text-white px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-green-500/30 hover:shadow-green-500/50 hover:scale-[1.02] transition-all"
@@ -907,7 +907,7 @@ function FinalCTA() {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="https://wa.me/5566992754284"
+              href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-dark-900 px-8 py-5 rounded-2xl text-lg font-semibold shadow-2xl shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-[1.02] transition-all"
@@ -956,7 +956,7 @@ function Footer() {
                 <InstagramIcon size={18} />
               </a>
               <a
-                href="https://wa.me/5566992754284"
+                href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-xl glass flex items-center justify-center text-zinc-400 hover:text-green-400 hover:bg-white/10 transition-all"
@@ -985,7 +985,7 @@ function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://wa.me/5566992122415"
+                  href="https://wa.me/5566992122415?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-green-400 hover:text-green-300 text-sm transition-colors"
@@ -996,7 +996,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/5566992754284"
+                  href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-amber-400 hover:text-amber-300 text-sm transition-colors"
@@ -1044,7 +1044,7 @@ function FloatingWhatsApp() {
     <AnimatePresence>
       {visible && (
         <motion.a
-          href="https://wa.me/5566992754284"
+          href="https://wa.me/5566992754284?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JP%20Borracharia%20M%C3%B3vel%20e%20preciso%20de%20socorro%20no%20pneu."
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0.5, y: 20 }}
