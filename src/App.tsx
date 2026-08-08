@@ -253,19 +253,30 @@ function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 w-full">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 space-y-8">
-            {/* Badge */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="inline-flex items-center gap-2 glass rounded-full px-4 py-2"
-            >
-              <span className="relative flex h-2.5 w-2.5">
-                <span className="pulse-ring absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" />
-              </span>
-              <span className="text-sm text-zinc-300 font-medium">Atendimento 24 horas em Matupá e região</span>
-            </motion.div>
+            {/* Badges */}
+            <div className="flex flex-wrap items-center gap-3">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="inline-flex items-center gap-2 glass rounded-full px-4 py-2"
+              >
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="pulse-ring absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" />
+                </span>
+                <span className="text-sm text-zinc-300 font-medium">Atendimento 24 horas em Matupá e região</span>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className="inline-flex items-center gap-2 bg-white/5 text-brand-400 px-4 py-2 rounded-full text-sm font-semibold border border-white/10"
+              >
+                <Truck size={14} />
+                2 UNIDADES MÓVEIS • FROTA PRÓPRIA
+              </motion.div>
+            </div>
 
             {/* Headline */}
             <motion.div
@@ -285,7 +296,7 @@ function Hero() {
                 variants={fadeInUp}
                 className="text-lg sm:text-xl text-zinc-400 max-w-xl leading-relaxed"
               >
-                Borracharia móvel especializada em <strong className="text-zinc-200">caminhões, carros e motos</strong>. Conserto e troca de pneus no local, em até 30 minutos. Sem reboque. Sem stress.
+                Borracharia móvel com <strong className="text-zinc-200">2 carros de atendimento</strong> especializados em caminhões, carros e motos. Conserto e troca de pneus no local em até <strong className="text-zinc-200">30 minutos</strong>. Sem reboque. Sem stress.
               </motion.p>
             </motion.div>
 
