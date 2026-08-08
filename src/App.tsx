@@ -294,21 +294,36 @@ function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6, ease: easeOut }}
-              className="flex flex-col sm:flex-row gap-4"
+              className="space-y-3"
             >
-              <a
-                href="https://wa.me/5566992754284"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary group flex items-center justify-center gap-2 bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-400 hover:to-brand-500 text-white px-8 py-4 rounded-2xl text-base font-semibold shadow-xl shadow-brand-500/25 hover:shadow-brand-500/40 hover:scale-[1.02] transition-all"
-              >
-                <PhoneCall size={20} />
-                Chamar socorro agora
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="https://wa.me/5566992122415"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary group flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-2xl text-base font-semibold shadow-xl shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all"
+                >
+                  <WhatsAppBrandIcon size={20} />
+                  Auto Socorro 1
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </a>
+                <a
+                  href="https://wa.me/5566992754284"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary group flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-dark-900 px-8 py-4 rounded-2xl text-base font-semibold shadow-xl shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-[1.02] transition-all"
+                >
+                  <WhatsAppBrandIcon size={20} />
+                  Auto Socorro 2
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+              <p className="text-zinc-500 text-sm">
+                Temos 2 carros de plantão ao mesmo tempo — chame qualquer um dos dois.
+              </p>
               <a
                 href="#servicos"
-                className="flex items-center justify-center gap-2 glass hover:bg-white/10 text-white px-8 py-4 rounded-2xl text-base font-semibold transition-all"
+                className="inline-flex items-center justify-center gap-2 glass hover:bg-white/10 text-white px-8 py-4 rounded-2xl text-base font-semibold transition-all"
               >
                 Ver todos os serviços
               </a>
@@ -369,16 +384,28 @@ function Hero() {
                       </div>
                     ))}
                   </div>
-                  <div className="pt-2">
-                    <a
-                      href="https://wa.me/5566992754284"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-400 text-white py-3 rounded-xl font-semibold transition-all shadow-lg shadow-green-500/20"
-                    >
-                      <WhatsAppBrandIcon size={20} />
-                      WhatsApp direto
-                    </a>
+                  <div className="pt-2 space-y-2">
+                    <div className="flex gap-2">
+                      <a
+                        href="https://wa.me/5566992122415"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 flex-1 bg-green-500 hover:bg-green-400 text-white py-3 rounded-xl font-semibold transition-all shadow-lg shadow-green-500/20"
+                      >
+                        <WhatsAppBrandIcon size={18} />
+                        Socorro 1
+                      </a>
+                      <a
+                        href="https://wa.me/5566992754284"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 flex-1 bg-amber-500 hover:bg-amber-400 text-dark-900 py-3 rounded-xl font-semibold transition-all shadow-lg shadow-amber-500/20"
+                      >
+                        <WhatsAppBrandIcon size={18} />
+                        Socorro 2
+                      </a>
+                    </div>
+                    <p className="text-zinc-500 text-xs text-center">2 carros de plantão — chame qualquer um</p>
                   </div>
                 </div>
               </div>
